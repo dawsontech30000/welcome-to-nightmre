@@ -19,6 +19,8 @@ mods.mekanism.enrichment.addRecipe(<mekanism:ingot> * 32, <mekanism:compressedob
 
 
 
+
+
 RecipeBuilder.get("engineer")
   .setShaped([
     [<mekanism:controlcircuit>, <mekanism:tierinstaller>, <extendedcrafting:material:8>, <mekanism:tierinstaller>, <mekanism:controlcircuit>],
