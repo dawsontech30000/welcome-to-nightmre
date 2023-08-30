@@ -1,17 +1,10 @@
 
+
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemDefinition;
 import mods.artisanworktables.builder.RecipeBuilder;
-
-
-
-
-mods.mekanism.enrichment.addRecipe(<minecraft:diamond> * 32, <mekanism:compresseddiamond> * 64);
-mods.mekanism.enrichment.addRecipe(<minecraft:redstone> * 32, <mekanism:compressedredstone> * 64);
-mods.mekanism.enrichment.addRecipe(<minecraft:coal> * 32, <mekanism:compressedcarbon> * 64);
-mods.mekanism.enrichment.addRecipe(<mekanism:ingot> * 32, <mekanism:compressedobsidian> * 64);
 
 
 
@@ -52,7 +45,3 @@ RecipeBuilder.get("engineer")
   .setExtraOutputThree(<artisanworktables:artisans_hammer_diamond>, 1.0)
   .create();
 
-
-
-
-  
