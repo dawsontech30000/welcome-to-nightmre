@@ -7,9 +7,16 @@ import crafttweaker.item.IItemDefinition;
 import mods.artisanworktables.builder.RecipeBuilder;
 
 
-
-
-
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<mekanism:controlcircuit>, <mekanism:tierinstaller>, <extendedcrafting:material:8>, <mekanism:tierinstaller>, <mekanism:controlcircuit>],
+    [<mekanism:tierinstaller>, <extendedcrafting:material:8>, <thermalexpansion:frame:148>, <extendedcrafting:material:8>, <mekanism:tierinstaller>],
+    [<mekanism:controlcircuit>, <thermalexpansion:frame:148>, <thermalexpansion:frame>, <thermalexpansion:frame:148>, <mekanism:controlcircuit>],
+    [<mekanism:tierinstaller>, <extendedcrafting:material:8>, <thermalexpansion:frame:148>, <extendedcrafting:material:8>, <mekanism:tierinstaller>],
+    [<mekanism:controlcircuit>, <mekanism:tierinstaller>, <extendedcrafting:material:8>, <mekanism:tierinstaller>, <mekanism:controlcircuit>]])
+  .setFluid(<liquid:redstone> * 16000)
+  .addOutput(<mekanism:machineblock:5>.withTag({recipeType: 3}))
+  .create();
 
 
 
