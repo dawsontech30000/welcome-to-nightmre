@@ -4,8 +4,7 @@ mods.mekanism.chemical.dissolution.removeAllRecipes();
 mods.mekanism.chemical.infuser.removeAllRecipes();
 mods.mekanism.chemical.injection.removeAllRecipes();
 mods.mekanism.chemical.oxidizer.removeAllRecipes();
-ods.mekanism.chemical.washer.removeAllRecipes();
-
+mods.mekanism.chemical.washer.removeAllRecipes();
 mods.mekanism.combiner.removeAllRecipes();
 mods.mekanism.crusher.removeAllRecipes();
 mods.mekanism.separator.removeAllRecipes();

@@ -52,3 +52,12 @@ RecipeBuilder.get("engineer")
   .setExtraOutputThree(<artisanworktables:artisans_hammer_diamond>, 1.0)
   .create();
 
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<mekanism:controlcircuit>, <mekanism:machineblock:7>.withTag({recipeType: 3, mekData: {}}), <mekanism:controlcircuit:1>, <mekanism:machineblock:7>.withTag({recipeType: 3, mekData: {}}), <mekanism:controlcircuit>],
+    [<mekanism:machineblock:6>.withTag({recipeType: 3, mekData: {}}), <mekanism:controlcircuit>, <mekanism:controlcircuit:2>, <mekanism:controlcircuit>, <mekanism:machineblock:5>.withTag({recipeType: 3})],
+    [<mekanism:controlcircuit:1>, <mekanism:controlcircuit:2>, <mekanism:tierinstaller:2>, <mekanism:controlcircuit:2>, <mekanism:controlcircuit:1>],
+    [<mekanism:machineblock:6>.withTag({recipeType: 3, mekData: {}}), <mekanism:controlcircuit>, <mekanism:controlcircuit:2>, <mekanism:controlcircuit>, <mekanism:machineblock:5>.withTag({recipeType: 3})],
+    [<mekanism:controlcircuit>, <mekanism:machineblock:5>.withTag({recipeType: 3}), <mekanism:controlcircuit:1>, <mekanism:machineblock:5>.withTag({recipeType: 3}), <mekanism:controlcircuit>]])
+  .addOutput(<mekanism:machineblock3:7>.withTag({recipeType: 3}))
+  .create();
