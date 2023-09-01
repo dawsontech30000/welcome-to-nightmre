@@ -79,3 +79,75 @@ RecipeBuilder.get("engineer")
 
 ///------------------------------------
 
+
+/// smelt
+
+
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<mekanism:controlcircuit>, <mekanism:basicblock2:3>.withTag({tier: 0}), <mekanism:basicblock2:3>.withTag({tier: 0}), <mekanism:basicblock2:3>.withTag({tier: 0}), <mekanism:controlcircuit>],
+    [<mekanism:basicblock2:3>.withTag({tier: 0}), <thaumcraft:smelter_basic>, <thermalexpansion:augment:303>, <thaumcraft:smelter_basic>, <mekanism:basicblock2:3>.withTag({tier: 0})],
+    [<mekanism:basicblock2:3>.withTag({tier: 0}), <thermalexpansion:machine:3>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), <thermalexpansion:augment:304>, <thermalexpansion:machine:3>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), <mekanism:basicblock2:3>.withTag({tier: 0})],
+    [<mekanism:basicblock2:3>.withTag({tier: 0}), <thaumcraft:smelter_basic>, <inventorypets:furnace_pet>, <thaumcraft:smelter_basic>, <mekanism:basicblock2:3>.withTag({tier: 0})],
+    [<mekanism:controlcircuit>, <mekanism:basicblock2:3>.withTag({tier: 0}), <mekanism:basicblock2:3>.withTag({tier: 0}), <mekanism:basicblock2:3>.withTag({tier: 0}), <mekanism:controlcircuit>]])
+  .setFluid(<liquid:oil> * 16000)
+  .addTool(<artisanworktables:artisans_hammer_constantan>, 1)
+  .addTool(<artisanworktables:artisans_hammer_constantan>, 1)
+  .addTool(<artisanworktables:artisans_hammer_constantan>, 1)
+  .addOutput(<mekanism:machineblock:5>.withTag({recipeType: 0, mekData: {}}))
+  .create();
+
+
+
+  RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<mekanism:controlcircuit>, <mekanism:basicblock2:3>.withTag({tier: 0}), <mekanism:basicblock2:3>.withTag({tier: 0}), <mekanism:basicblock2:3>.withTag({tier: 0}), <mekanism:controlcircuit>],
+    [<mekanism:basicblock2:3>.withTag({tier: 0}), <thaumcraft:smelter_basic>, <thermalexpansion:augment:303>, <thaumcraft:smelter_basic>, <mekanism:basicblock2:3>.withTag({tier: 0})],
+    [<mekanism:basicblock2:3>.withTag({tier: 0}), <thermalexpansion:machine:3>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), <thermalexpansion:augment:304>, <thermalexpansion:machine:3>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), <mekanism:basicblock2:3>.withTag({tier: 0})],
+    [<mekanism:basicblock2:3>.withTag({tier: 0}), <thaumcraft:smelter_basic>, <inventorypets:furnace_pet>, <thaumcraft:smelter_basic>, <mekanism:basicblock2:3>.withTag({tier: 0})],
+    [<mekanism:controlcircuit>, <mekanism:basicblock2:3>.withTag({tier: 0}), <mekanism:basicblock2:3>.withTag({tier: 0}), <mekanism:basicblock2:3>.withTag({tier: 0}), <mekanism:controlcircuit>]])
+  .setFluid(<liquid:oil> * 16000)
+  .addTool(<artisanworktables:artisans_hammer_constantan>, 1)
+  .addTool(<artisanworktables:artisans_hammer_constantan>, 1)
+  .addTool(<artisanworktables:artisans_hammer_constantan>, 1)
+  .addOutput(<mekanism:machineblock:5>.withTag({recipeType: 0, mekData: {}}))
+  .create();
+
+
+  RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<mekanism:controlcircuit>, <mekanism:machineblock:5>.withTag({recipeType: 0, mekData: {}}), <thaumcraft:smelter_thaumium>, <mekanism:machineblock:5>.withTag({recipeType: 0}), <mekanism:controlcircuit>],
+    [<thermalexpansion:augment:304>, <thaumcraft:smelter_basic>, <inventorypets:furnace_pet>, <thaumcraft:smelter_basic>, <mekanism:tierinstaller>],
+    [<mekanism:tierinstaller>, <inventorypets:furnace_pet>, <thermalexpansion:machine:3>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), <inventorypets:furnace_pet>, <thaumcraft:smelter_void>],
+    [<thermalexpansion:augment:303>, <thaumcraft:smelter_basic>, <inventorypets:furnace_pet>, <thaumcraft:smelter_basic>, <mekanism:tierinstaller>],
+    [<mekanism:controlcircuit>, <mekanism:machineblock:5>.withTag({recipeType: 0}), <thaumcraft:smelter_thaumium>, <mekanism:machineblock:5>.withTag({recipeType: 0}), <mekanism:controlcircuit>]])
+  .setFluid(<liquid:diesel> * 16000)
+  .addOutput(<mekanism:machineblock:6>.withTag({recipeType: 0, mekData: {}}))
+  .create();
+
+
+  RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<mekanism:tierinstaller>, <mekanism:controlcircuit:2>, <atum:limestone_furnace>, <mekanism:controlcircuit:2>, <mekanism:tierinstaller>],
+    [<immersiveengineering:metal_device1>, <mekanism:controlcircuit>, <mekanism:controlcircuit:1>, <mekanism:controlcircuit>, <immersiveengineering:metal_device1>],
+    [<atum:limestone_furnace>, <mekanism:controlcircuit:1>, <thermalexpansion:machine>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), <mekanism:controlcircuit:1>, <atum:limestone_furnace>],
+    [<thermalexpansion:machine>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), <mekanism:controlcircuit>, <mekanism:controlcircuit:1>, <mekanism:controlcircuit>, <thermalexpansion:machine>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte})],
+    [<mekanism:tierinstaller>, <mekanism:controlcircuit:2>, <thermalexpansion:machine>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), <mekanism:controlcircuit:2>, <mekanism:tierinstaller>]])
+  .setFluid(<liquid:gasoline> * 16000)
+  .addTool(<artisanworktables:artisans_hammer_constantan>, 1)
+  .addTool(<artisanworktables:artisans_hammer_constantan>, 1)
+  .addTool(<artisanworktables:artisans_hammer_constantan>, 1)
+  .addOutput(<mekanism:machineblock:7>.withTag({recipeType: 0, mekData: {}}))
+  .create();
+
+
+  RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<mekanism:machineblock:5>.withTag({recipeType: 0, mekData: {}}), <mekanism:controlcircuit:1>, <mekanism:machineblock:7>.withTag({recipeType: 0, mekData: {}}), <mekanism:controlcircuit:1>, <mekanism:machineblock:5>.withTag({recipeType: 0, mekData: {}})],
+    [<mekanism:controlcircuit>, <mekanism:machineblock:6>.withTag({recipeType: 0, mekData: {}}), <mekanism:controlcircuit:1>, <mekanism:machineblock:6>.withTag({recipeType: 0, mekData: {}}), <mekanism:controlcircuit>],
+    [<mekanism:machineblock:7>.withTag({recipeType: 0, mekData: {}}), <mekanism:controlcircuit>, <thermalexpansion:machine>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), <mekanism:controlcircuit>, <mekanism:machineblock:7>.withTag({recipeType: 0, mekData: {}})],
+    [<mekanism:controlcircuit>, <mekanism:machineblock:6>.withTag({recipeType: 0, mekData: {}}), <mekanism:controlcircuit:2>, <mekanism:machineblock:6>.withTag({recipeType: 0, mekData: {}}), <mekanism:controlcircuit>],
+    [<mekanism:machineblock:5>.withTag({recipeType: 0, mekData: {}}), <mekanism:controlcircuit:2>, <mekanism:machineblock:7>.withTag({recipeType: 0, mekData: {}}), <mekanism:controlcircuit:2>, <mekanism:machineblock:5>.withTag({recipeType: 0, mekData: {}})]])
+  .setFluid(<liquid:lubricant> * 16000)
+  .addOutput(<mekanism:machineblock3:7>.withTag({recipeType: 0, mekData: {}}))
+  .create();
