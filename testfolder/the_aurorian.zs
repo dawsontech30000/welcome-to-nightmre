@@ -49,7 +49,7 @@ RecipeBuilder.get("carpenter")
   .create();
 
 
-mods.naturesaura.Offering.addRecipe(<theaurorian:spectralsilk>, 5, <<theaurorian:spectralhelmet>>, <theaurorian:auroriansteelhelmet>);
-mods.naturesaura.Offering.addRecipe(<theaurorian:spectralsilk>, 5, <<theaurorian:spectralchestplate>>, <theaurorian:auroriansteelchestplate>);
-mods.naturesaura.Offering.addRecipe(<theaurorian:spectralsilk>, 5, <<theaurorian:spectralleggings>>, <theaurorian:auroriansteelleggings>);
-mods.naturesaura.Offering.addRecipe(<theaurorian:spectralsilk>, 5, <<theaurorian:spectralboots>>, <theaurorian:auroriansteelboots>);
+mods.naturesaura.Offering.addRecipe("spectralhelmet",<theaurorian:spectralsilk>, 5, <theaurorian:spectralhelmet>, <theaurorian:auroriansteelhelmet>);
+mods.naturesaura.Offering.addRecipe("spectralchestplate",<theaurorian:spectralsilk>, 5, <theaurorian:spectralchestplate>, <theaurorian:auroriansteelchestplate>);
+mods.naturesaura.Offering.addRecipe("spectralleggings",<theaurorian:spectralsilk>, 5,<theaurorian:spectralleggings>, <theaurorian:auroriansteelleggings>);
+mods.naturesaura.Offering.addRecipe("spectralboots",<theaurorian:spectralsilk>, 5, <theaurorian:spectralboots>, <theaurorian:auroriansteelboots>);
