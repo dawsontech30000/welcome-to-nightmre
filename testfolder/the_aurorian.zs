@@ -5,6 +5,7 @@ import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemDefinition;
 import mods.artisanworktables.builder.RecipeBuilder;
+import mods.naturesaura.Offering;
 
 
 RecipeBuilder.get("carpenter")
@@ -48,4 +49,7 @@ RecipeBuilder.get("carpenter")
   .create();
 
 
-  
+mods.naturesaura.Offering.addRecipe(<theaurorian:spectralsilk>, 5, <<theaurorian:spectralhelmet>>, <theaurorian:auroriansteelhelmet>);
+mods.naturesaura.Offering.addRecipe(<theaurorian:spectralsilk>, 5, <<theaurorian:spectralchestplate>>, <theaurorian:auroriansteelchestplate>);
+mods.naturesaura.Offering.addRecipe(<theaurorian:spectralsilk>, 5, <<theaurorian:spectralleggings>>, <theaurorian:auroriansteelleggings>);
+mods.naturesaura.Offering.addRecipe(<theaurorian:spectralsilk>, 5, <<theaurorian:spectralboots>>, <theaurorian:auroriansteelboots>);
