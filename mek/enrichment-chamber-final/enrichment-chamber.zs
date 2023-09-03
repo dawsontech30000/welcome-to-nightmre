@@ -53,31 +53,6 @@ RecipeBuilder.get("engineer")
   .setExtraOutputThree(<artisanworktables:artisans_hammer_diamond>, 1.0)
   .create();
 
-///----------------------------------
-
-  RecipeBuilder.get("engineer")
-  .setShaped([
-    [<mekanism:controlcircuit>, <mekanism:machineblock:7>.withTag({recipeType: 3, mekData: {}}), <mekanism:controlcircuit:1>, <mekanism:machineblock:7>.withTag({recipeType: 3, mekData: {}}), <mekanism:controlcircuit>],
-    [<mekanism:machineblock:6>.withTag({recipeType: 3, mekData: {}}), <mekanism:controlcircuit>, <mekanism:controlcircuit:2>, <mekanism:controlcircuit>, <mekanism:machineblock:5>.withTag({recipeType: 3})],
-    [<mekanism:controlcircuit:1>, <mekanism:controlcircuit:2>, <mekanism:tierinstaller:2>, <mekanism:controlcircuit:2>, <mekanism:controlcircuit:1>],
-    [<mekanism:machineblock:6>.withTag({recipeType: 3, mekData: {}}), <mekanism:controlcircuit>, <mekanism:controlcircuit:2>, <mekanism:controlcircuit>, <mekanism:machineblock:5>.withTag({recipeType: 3})],
-    [<mekanism:controlcircuit>, <mekanism:machineblock:5>.withTag({recipeType: 3}), <mekanism:controlcircuit:1>, <mekanism:machineblock:5>.withTag({recipeType: 3}), <mekanism:controlcircuit>]])
-  .setFluid(<liquid:purpleslime> * 16000)
-  .addOutput(<mekanism:machineblock3:7>.withTag({recipeType: 3}))
-  .create();
-
-///----------------------------------------------------------------
-
-  mods.extendedcrafting.CombinationCrafting.addRecipe(<mekanism:machineblock3:8>.withTag({recipeType: 3}), 
-	10000000, 9000000, 
-	<mekanism:machineblock3:7>.withTag({recipeType: 3}), 
-	[<mekanism:machineblock:5>.withTag({recipeType: 3}), <mekanism:machineblock:5>.withTag({recipeType: 3}), <mekanism:machineblock:5>.withTag({recipeType: 3}),
-	<mekanism:machineblock:6>.withTag({recipeType: 3, mekData: {}}), <mekanism:machineblock:6>.withTag({recipeType: 3, mekData: {}}), <mekanism:machineblock:6>.withTag({recipeType: 3, mekData: {}}),
-	<mekanism:machineblock:7>.withTag({recipeType: 3, mekData: {}}), <mekanism:machineblock:7>.withTag({recipeType: 3, mekData: {}}), <mekanism:machineblock:7>.withTag({recipeType: 3, mekData: {}}),
-	<mekanism:machineblock3:7>.withTag({recipeType: 3}), <mekanism:machineblock3:7>.withTag({recipeType: 3}), <mekanism:machineblock3:7>.withTag({recipeType: 3}),
-	<mekanism:machineblock3:7>.withTag({recipeType: 3}), <mekanism:machineblock3:7>.withTag({recipeType: 3})]);
-
-///------------------------------------
 
 
 /// smelt
@@ -140,14 +115,3 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<mekanism:machineblock:7>.withTag({recipeType: 0, mekData: {}}))
   .create();
 
-
-  RecipeBuilder.get("blacksmith")
-  .setShaped([
-    [<mekanism:machineblock:5>.withTag({recipeType: 0, mekData: {}}), <mekanism:controlcircuit:1>, <mekanism:machineblock:7>.withTag({recipeType: 0, mekData: {}}), <mekanism:controlcircuit:1>, <mekanism:machineblock:5>.withTag({recipeType: 0, mekData: {}})],
-    [<mekanism:controlcircuit>, <mekanism:machineblock:6>.withTag({recipeType: 0, mekData: {}}), <mekanism:controlcircuit:1>, <mekanism:machineblock:6>.withTag({recipeType: 0, mekData: {}}), <mekanism:controlcircuit>],
-    [<mekanism:machineblock:7>.withTag({recipeType: 0, mekData: {}}), <mekanism:controlcircuit>, <thermalexpansion:machine>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), <mekanism:controlcircuit>, <mekanism:machineblock:7>.withTag({recipeType: 0, mekData: {}})],
-    [<mekanism:controlcircuit>, <mekanism:machineblock:6>.withTag({recipeType: 0, mekData: {}}), <mekanism:controlcircuit:2>, <mekanism:machineblock:6>.withTag({recipeType: 0, mekData: {}}), <mekanism:controlcircuit>],
-    [<mekanism:machineblock:5>.withTag({recipeType: 0, mekData: {}}), <mekanism:controlcircuit:2>, <mekanism:machineblock:7>.withTag({recipeType: 0, mekData: {}}), <mekanism:controlcircuit:2>, <mekanism:machineblock:5>.withTag({recipeType: 0, mekData: {}})]])
-  .setFluid(<liquid:lubricant> * 16000)
-  .addOutput(<mekanism:machineblock3:7>.withTag({recipeType: 0, mekData: {}}))
-  .create();
