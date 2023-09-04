@@ -27,5 +27,3 @@ mods.naturesaura.Offering.addRecipe("goldleafautomation", <naturesaura:gold_fibe
 
 
 
-mods.naturesaura.TreeRitual.addRecipe("menrilsapling", <minecraft:sapling>, <integrateddynamics:menril_sapling>, 100, [<minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>]);
-
