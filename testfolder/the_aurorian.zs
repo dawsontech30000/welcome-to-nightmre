@@ -51,7 +51,7 @@ RecipeBuilder.get("carpenter")
 
 mods.naturesaura.Offering.addRecipe("spectralhelmet",<theaurorian:auroriansteel>, 64, <theaurorian:spectralhelmet>, <theaurorian:auroriansteelhelmet>);
 mods.naturesaura.Offering.addRecipe("spectralchestplate",<theaurorian:auroriansteel>, 64, <theaurorian:spectralchestplate>, <theaurorian:auroriansteelchestplate>);
-mods.naturesaura.Offering.addRecipe("spectralleggings",<theaurorian:auroriansteel>, 65,<theaurorian:spectralleggings>, <theaurorian:auroriansteelleggings>);
+mods.naturesaura.Offering.addRecipe("spectralleggings",<theaurorian:auroriansteel>, 64,<theaurorian:spectralleggings>, <theaurorian:auroriansteelleggings>);
 mods.naturesaura.Offering.addRecipe("spectralboots",<theaurorian:auroriansteel>, 64, <theaurorian:spectralboots>, <theaurorian:auroriansteelboots>);
 
 
