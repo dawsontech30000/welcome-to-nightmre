@@ -18,9 +18,6 @@ mods.naturesaura.Offering.addRecipe("brewingstand", <minecraft:blaze_rod>, 5, <o
 //scarab
 mods.naturesaura.Offering.addRecipe("atumscarab", <atum:sand>, 10, <minecraft:gold_block>, <atum:scarab>);
 
-//swamp talisman
-mods.naturesaura.Offering.addRecipe("talisman", <naturesaura:moss_generator>, 3,<thebetweenlands:swamp_talisman>);
-
 //gold leaves
 mods.naturesaura.Offering.addRecipe("goldleafautomation", <naturesaura:gold_fiber>, 2, <ore:treeLeaves>, <naturesaura:gold_leaf>);
 
