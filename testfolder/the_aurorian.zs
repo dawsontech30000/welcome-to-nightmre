@@ -55,7 +55,7 @@ mods.naturesaura.Offering.addRecipe("spectralleggings",<theaurorian:spectralsilk
 mods.naturesaura.Offering.addRecipe("spectralboots",<theaurorian:spectralsilk>, 5, <theaurorian:spectralboots>, <theaurorian:auroriansteelboots>);
 
 
-mods.naturesaura.Offering.addRecipe("night helment",<theaurorian:spectralsilk>, 5, <theaurorian:spectralhelmet>, <theaurorian:knighthelmet>);
-mods.naturesaura.Offering.addRecipe("night chesplate",<theaurorian:spectralsilk>, 5, <theaurorian:spectralchestplate>, <theaurorian:knightchestplate>);
-mods.naturesaura.Offering.addRecipe("night leggings",<theaurorian:spectralsilk>, 5,<theaurorian:spectralleggings>, <theaurorian:knightleggings>);
-mods.naturesaura.Offering.addRecipe("night boots",<theaurorian:spectralsilk>, 5, <theaurorian:spectralboots>, <theaurorian:knightboots>);
+mods.naturesaura.Offering.addRecipe("night helment",<theaurorian:moonstoneingot>, 5, <theaurorian:auroriansteelhelmet>, <theaurorian:knighthelmet>);
+mods.naturesaura.Offering.addRecipe("night chesplate",<theaurorian:moonstoneingot>, 5, <theaurorian:auroriansteelchestplate>, <theaurorian:knightchestplate>);
+mods.naturesaura.Offering.addRecipe("night leggings",<theaurorian:moonstoneingot>, 5,<theaurorian:auroriansteelleggings>, <theaurorian:knightleggings>);
+mods.naturesaura.Offering.addRecipe("night boots",<theaurorian:moonstoneingot>, 5, <theaurorian:auroriansteelboots>, <theaurorian:knightboots>);
