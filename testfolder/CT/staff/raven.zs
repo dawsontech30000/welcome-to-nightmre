@@ -8,7 +8,7 @@ var color = Color.fromHex("42a611") as Color;
 
 var raven  = MaterialSystem.getMaterialBuilder().setName("raven").setColor(color).build();
 
-raven.registerParts(["gear", "plate", "nugget", "ingot", "rod", "dust", "pickaxe"] as string[]);
+raven.registerParts(["gear", "plate", "nugget", "ingot", "rod", "dust"] as string[]);
 
 var molten = raven .registerPart("molten").getData();
 molten.addDataValue("temperature", "400");
@@ -31,7 +31,3 @@ armor.addDataValue("durability", "522");
 armor.addDataValue("enchantability", "10");
 armor.addDataValue("reduction", "2,5,6,2");
 armor.addDataValue("toughness", "2");
-
-var pickaxe = raven.registerPart("pickaxe").getData();
-pickaxe.addDataValue("durability", "522");
-
