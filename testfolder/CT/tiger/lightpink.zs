@@ -4,7 +4,7 @@
 import mods.contenttweaker.Color;
 import mods.contenttweaker.MaterialSystem;
 
-var color = Color.fromHex("e8acc7") as Color;
+var color = Color.fromHex("ed3789") as Color;
 
 var pinktiger  = MaterialSystem.getMaterialBuilder().setName("pinktiger").setColor(color).build();
 

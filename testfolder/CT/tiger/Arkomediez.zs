@@ -4,7 +4,7 @@
 import mods.contenttweaker.Color;
 import mods.contenttweaker.MaterialSystem;
 
-var color = Color.fromHex("cc7722") as Color;
+var color = Color.fromHex("ed7f09") as Color;
 
 var tiger  = MaterialSystem.getMaterialBuilder().setName("tiger").setColor(color).build();
 

@@ -4,7 +4,7 @@
 import mods.contenttweaker.Color;
 import mods.contenttweaker.MaterialSystem;
 
-var color = Color.fromHex("343434") as Color;
+var color = Color.fromHex("1f1d1d") as Color;
 
 var Blacktiger  = MaterialSystem.getMaterialBuilder().setName("Blacktiger").setColor(color).build();
 
