@@ -27,3 +27,7 @@ mods.jmapstages.JMapStages.setDeathpointStage("firstdeath");
 
 // Restricts the player from having the minimap open on their screen.
 mods.jmapstages.JMapStages.setMinimapStage("minimap");
+
+
+player.hasAnyGameStages("waypoints", "big map", "firstdeath", "minimap");
+

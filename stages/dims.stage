@@ -1,0 +1,9 @@
+
+
+
+
+
+
+
+mods.DimensionStages.addDimensionStage("nether", -1);
+mods.DimensionStages.addDimensionStage("end", 1);
