@@ -32,6 +32,6 @@ armor.addDataValue("enchantability", "10");
 armor.addDataValue("reduction", "2,5,6,2");
 armor.addDataValue("toughness", "2");
 
-var pickaxe = raven.registerPart (pickaxe).getData();
+var pickaxe = raven.registerPart("pickaxe").getData();
 pickaxe.addDataValue("durability", "522");
 
