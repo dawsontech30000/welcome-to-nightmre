@@ -5,3 +5,18 @@ mods.mekanism.infuser.addRecipe("DIAMOND", 160, <naturesaura:sky_ingot> * 12, <m
 mods.mekanism.infuser.addRecipe("DIAMOND", 160, <naturesaura:sky_ingot> * 24, <mekanism:controlcircuit:2>);
 mods.mekanism.infuser.addRecipe("OBSIDIAN", 480, <extendedcrafting:material:32> * 16, <mekanism:controlcircuit:3>);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
