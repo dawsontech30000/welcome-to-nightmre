@@ -9,11 +9,8 @@ import mods.naturesaura.TreeRitual;
 
 recipes.addShapeless("goldpowder", <naturesaura:gold_powder>*2, [<naturesaura:gold_leaf>, <botania:pestleandmortar>]);
 
-
 //brewingstand
 mods.naturesaura.Offering.addRecipe("brewingstand", <minecraft:blaze_rod>, 5, <overloaded:compressed_cobblestone:3>, <minecraft:brewing_stand>);
-
-
 
 //scarab
 mods.naturesaura.Offering.addRecipe("atumscarab", <atum:sand>, 10, <minecraft:gold_block>, <atum:scarab>);

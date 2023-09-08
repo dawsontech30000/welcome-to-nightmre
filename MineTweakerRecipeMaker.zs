@@ -18,6 +18,9 @@
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<atum:scarab>, [[<ore:ingotGold>, <atum:crunchy_scarab>, <ore:ingotGold>], [null, <minecraft:gold_ingot>, null]]);
+recipes.removeShaped(<atum:scarab>, [[<ore:ingotGold>, <minecraft:diamond>, <ore:ingotGold>], [null, <minecraft:gold_ingot>, null]]);
+recipes.removeShaped(<atum:scarab>, [[<atum:crunchy_golden_scarab>]]);
 recipes.removeShaped(<mekanism:ingot:3>, [[<mekanism:nugget:3>, <mekanism:nugget:3>, <mekanism:nugget:3>], [<mekanism:nugget:3>, <mekanism:nugget:3>, <mekanism:nugget:3>], [<mekanism:nugget:3>, <mekanism:nugget:3>, <mekanism:nugget:3>]]);
 recipes.removeShaped(<mekanism:ingot:3> * 9, [[<mekanism:basicblock:4>]]);
 recipes.removeShaped(<mekanism:basicblock:4>, [[<ore:ingotRefinedGlowstone>, <ore:ingotRefinedGlowstone>, <mekanism:ingot:3>], [<ore:ingotRefinedGlowstone>, <mekanism:ingot:3>, <mekanism:ingot:3>], [<ore:ingotRefinedGlowstone>, <ore:ingotRefinedGlowstone>, <mekanism:ingot:3>]]);

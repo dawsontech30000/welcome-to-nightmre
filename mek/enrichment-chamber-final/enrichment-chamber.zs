@@ -115,3 +115,12 @@ RecipeBuilder.get("blacksmith")
   .addOutput(<mekanism:machineblock:7>.withTag({recipeType: 0, mekData: {}}))
   .create();
 
+
+
+// recieps for chambers
+/// compressor diamons redstone carbon and obsidian
+mods.mekanism.enrichment.addRecipe(<minecraft:diamond> * 32, <mekanism:compresseddiamond> * 64);
+mods.mekanism.enrichment.addRecipe(<minecraft:redstone> * 32, <mekanism:compressedredstone> * 64);
+mods.mekanism.enrichment.addRecipe(<minecraft:coal> * 32, <mekanism:compressedcarbon> * 64);
+mods.mekanism.enrichment.addRecipe(<mekanism:ingot> * 32, <mekanism:compressedobsidian> * 64);
+
