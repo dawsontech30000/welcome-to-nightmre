@@ -1,3 +1,14 @@
+// remove all script
+furnace.removeAll();
+
+
+
+recipes.removeByMod("Silent's Gems");
+recipes.removeByMod("Silent Gear");
+
+
+
+
 mods.mekanism.enrichment.removeAllRecipes();
 mods.mekanism.chemical.crystallizer.removeAllRecipes();
 mods.mekanism.chemical.dissolution.removeAllRecipes();

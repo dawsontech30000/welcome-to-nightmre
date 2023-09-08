@@ -33,4 +33,5 @@ recipes.removeShaped(<mekanism:basicblock:4>, [[<ore:ingotRefinedGlowstone>, <or
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<minecraft:map>, [[null, <naturescompass:naturescompass>, null], [<naturescompass:naturescompass>, <minecraft:compass>, <naturescompass:naturescompass>], [null, <naturescompass:naturescompass>, null]]);
 

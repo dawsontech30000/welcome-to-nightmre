@@ -61,4 +61,3 @@ mods.naturesaura.Offering.addRecipe("night leggings",<theaurorian:moonstoneingot
 mods.naturesaura.Offering.addRecipe("night boots",<theaurorian:moonstoneingot>, 64, <theaurorian:auroriansteelboots>, <theaurorian:knightboots>);
 
 
-UA
