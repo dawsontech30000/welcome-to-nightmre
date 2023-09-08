@@ -1,6 +1,7 @@
 #reloadable
 import mods.appliedenergistics2.Grinder;
 Grinder.removeRecipe(<twilightforest:giant_obsidian>);
+Grinder.removeRecipe(<minecraft:quartz_ore>);
 
 
 
