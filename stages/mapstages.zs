@@ -29,5 +29,4 @@ mods.jmapstages.JMapStages.setDeathpointStage("firstdeath");
 mods.jmapstages.JMapStages.setMinimapStage("minimap");
 
 
-player.hasAnyGameStages("waypoints", "big map", "firstdeath", "minimap");
 
