@@ -18,6 +18,10 @@
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<minecraft:map>, [[<ore:paper>, <ore:paper>, <minecraft:paper>], [<ore:paper>, <mist:map_down>, <minecraft:paper>], [<minecraft:paper>, <ore:paper>, <minecraft:paper>]]);
+recipes.removeShaped(<minecraft:map>, [[<ore:paper>, <ore:paper>, <minecraft:paper>], [<ore:paper>, <mist:map_up>, <minecraft:paper>], [<minecraft:paper>, <ore:paper>, <minecraft:paper>]]);
+recipes.removeShaped(<minecraft:map>, [[<ore:paper>, <ore:paper>, <atum:scroll>], [<ore:paper>, <minecraft:compass>, <atum:scroll>], [<atum:scroll>, <ore:paper>, <atum:scroll>]]);
+recipes.removeShaped(<minecraft:map>, [[<ore:paper>, <ore:paper>, <minecraft:paper>], [<ore:paper>, <minecraft:compass>, <minecraft:paper>], [<minecraft:paper>, <ore:paper>, <minecraft:paper>]]);
 recipes.removeShaped(<atum:scarab>, [[<ore:ingotGold>, <atum:crunchy_scarab>, <ore:ingotGold>], [null, <minecraft:gold_ingot>, null]]);
 recipes.removeShaped(<atum:scarab>, [[<ore:ingotGold>, <minecraft:diamond>, <ore:ingotGold>], [null, <minecraft:gold_ingot>, null]]);
 recipes.removeShaped(<atum:scarab>, [[<atum:crunchy_golden_scarab>]]);
